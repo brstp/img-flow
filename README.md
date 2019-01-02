@@ -2,8 +2,7 @@
 My linux based workflow for photos
 
 
-*Copy files from camera memory card to laptop.
-*Rsync files from laptop to server collector.
+*Rsync files from laptop/mobile to server collector.
 *Import files from collector to archive.
 *Prune collector.
 *Prune laptop.
@@ -14,3 +13,9 @@ My linux based workflow for photos
 Prereq:
 perl-Image-ExifTool
 rsync
+fdupes
+
+Filetypes:
+nef
+jpg
+mov
